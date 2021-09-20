@@ -6,4 +6,7 @@
 /pkg/
 /spec/reports/
 /tmp/
+
 Gemfile.lock
+
+lib/license/cli/licenses.json
