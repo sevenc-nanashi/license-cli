@@ -30,9 +30,8 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   spec.add_dependency "tty-prompt", "~> 0.23.1"
-  spec.add_dependency "colorize", "~> 1.1.0"
 
-  spec.add_development_dependency "dotenv", "~> 1.3.0"
+  spec.add_development_dependency "dotenv", "~> 2.7.6"
 
   # For more information and examples about making a new gem, checkout our
   # guide at: https://bundler.io/guides/creating_gem.html
