@@ -78,7 +78,7 @@ module License::CLI
         field = raw_field[1..-2]
         field_data = LICENSE_FIELDS[field]
         field_data ||= [field, ""]
-        fields[field] = prompt.ask(
+        fields[raw_field] = prompt.ask(
           field_data[0] + "?",
           default: field_data[1],
         )
