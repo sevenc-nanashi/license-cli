@@ -30,8 +30,12 @@ task :licenses do
   end
 
   iputs "Writing licenses..."
-  File.open("lib/license/cli/licenses.json", "w") do |f|
-    f.write(JSON.dump(ret))
+  File.open("lib/license/cli/licenses.rb", "w") do |f|
+    f.write(<<~RUBY)
+      module License::CLI
+        LICENSES = #{ret}
+      end
+    RUBY
   end
 
   sputs "Done."
