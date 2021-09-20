@@ -2,4 +2,4 @@
 
 require "license/cli"
 
-License::CLI.run
+License::CLI.interactive
