@@ -30,6 +30,7 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   spec.add_dependency "tty-prompt", "~> 0.23.1"
+  spec.add_dependency "colorize", "~> 0.8.1"
 
   spec.add_development_dependency "dotenv", "~> 2.7.6"
 
