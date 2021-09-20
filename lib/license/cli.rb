@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
 require_relative "cli/version"
+require_relative "cli/core"
 
 module License
-  module Cli
+  module CLI
     class Error < StandardError; end
-    # Your code goes here...
   end
 end

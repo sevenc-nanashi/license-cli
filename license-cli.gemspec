@@ -4,7 +4,7 @@ require_relative "lib/license/cli/version"
 
 Gem::Specification.new do |spec|
   spec.name = "license-cli"
-  spec.version = License::Cli::VERSION
+  spec.version = License::CLI::VERSION
   spec.authors = ["sevenc-nanashi"]
   spec.email = ["sevenc-nanashi@sevenbot.jp"]
 
